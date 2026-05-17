@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neev Properties | A Journey Towards Dream</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar" id="navbar">
+        <a href="#" class="logo-container">
+            <img src="logo.png" alt="Neev Properties Logo" class="logo-icon">
+            <div class="logo-text">
+                <span class="logo-title">NEEV PROPERTIES</span>
+                <span class="logo-tagline">A Journey Towards Dream...</span>
+            </div>
+        </a>
+
+        <div class="sidebar-overlay" id="sidebar-overlay"></div>
+        
+        <nav class="nav-menu" id="nav-menu">
+        
+            <div class="sidebar-top mobile-only">
+                <a href="#" class="logo-container">
+                    <img src="logo.png" alt="Neev Properties Logo" class="logo-icon">
+                    <div class="logo-text">
+                        <span class="logo-title">NEEV PROPERTIES</span>
+                        <span class="logo-tagline">A Journey Towards Dream...</span>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#consultancy">Consultancy</a>
+                <a href="#certificates">Certificates</a>
+                <a href="#why-us">Why Us</a>
+                <a href="#contact">Contact</a>
+            </div>
+        
+            <div class="sidebar-bottom mobile-only">
+                <div class="contact-details">
+                    <a href="tel:+910000000000">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                            </path>
+                        </svg>
+                        +91 98765 43210
+                    </a>
+                    <a href="mailto:info@neevproperties.com">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        info@neevproperties.com
+                    </a>
+                    <span>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        Navi Mumbai, Maharashtra
+                    </span>
+                </div>
+        
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg></a>
+                    <a href="#" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg></a>
+                    <a href="#" aria-label="LinkedIn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg></a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="#contact" class="btn-primary">Get In Touch</a>
+            
+            <button class="mobile-toggle" aria-label="Toggle Menu" id="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="glow-blob blob-1"></div>
+        <div class="glow-blob blob-2"></div>
+
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="badge-glass">
+                    <span class="dot"></span> Certified Real Estate Advisors
+                </div>
+                
+                <h1 class="hero-title">
+                    Smart Commercial<br>
+                    <span class="text-gradient">Investments</span><br>
+                    Start Here
+                </h1>
+                
+                <p class="hero-subtitle">
+                    Every great investment starts with a strong <strong>Neev</strong>. Premium properties tailored for business expansion, modern lifestyles, and future returns.
+                </p>
+                
+                <div class="hero-actions">
+                    <a href="#consultancy" class="btn-primary hero-btn">Explore Consultancy</a>
+                    <a href="#video" class="btn-secondary">
+                        <div class="play-icon">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                        Our Process
+                    </a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3>20+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>Transparent</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-image-wrapper">
+                <div class="image-container">
+                    <img src="founder-karan.webp" alt="Mr. Karan Arvind Dand - Founder" class="founder-img">
+                </div>
+                
+                <div class="floating-card glass-panel">
+                    <div class="card-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--primary-orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 21h18"></path>
+                            <path d="M9 8h1"></path>
+                            <path d="M9 12h1"></path>
+                            <path d="M9 16h1"></path>
+                            <path d="M14 8h1"></path>
+                            <path d="M14 12h1"></path>
+                            <path d="M14 16h1"></path>
+                            <path d="M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16"></path>
+                        </svg>
+                    </div>
+                    <div class="card-text">
+                        <h4>Strong Foundation</h4>
+                        <p>Built on Trust</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="consultancy" class="solutions-section">
+        <div class="solutions-container">
+            
+            <div class="sticky-sidebar">
+                <h2 class="section-title">Trusted <span class="text-gradient">Real Estate</span> Solutions</h2>
+                <p class="sidebar-text">
+                    We act as a strong bridge between buyers, sellers, and builders. With deep market knowledge, legal clarity, and transparent processes, we help you make confident property decisions and guide you towards smart investments.
+                </p>
+                <p class="sidebar-text">
+                    From luxury residential properties to strategic commercial spaces, our focus is to deliver trusted consultancy and high-value real estate experiences with transparency, quality, and long-term growth.
+                </p>
+            </div>
+
+            <div class="scroll-content">
+                
+                <div class="info-card reveal-item">
+                    <div class="card-header">
+                        <span class="card-number">01</span>
+                        <div class="dot-indicator"></div>
+                    </div>
+                    <h3 class="card-title">Property Buying Assistance</h3>
+                    <p class="card-desc">We help you find the right property based on your needs, budget, and location preferences with complete guidance.</p>
+                </div>
+
+                <div class="info-card reveal-item">
+                    <div class="card-header">
+                        <span class="card-number">02</span>
+                        <div class="dot-indicator"></div>
+                    </div>
+                    <h3 class="card-title">Property Selling Support</h3>
+                    <p class="card-desc">Get genuine buyers, correct market pricing, and smooth deal closure with our expert selling support.</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="card-header">
+                        <span class="card-number">03</span>
+                        <div class="dot-indicator"></div>
+                    </div>
+                    <h3 class="card-title">Investment Guidance</h3>
+                    <p class="card-desc">We provide insights on future property value, location growth, and help you make smart investment decisions.</p>
+                </div>
+
+                <div class="info-card reveal-item">
+                    <div class="card-header">
+                        <span class="card-number">04</span>
+                        <div class="dot-indicator"></div>
+                    </div>
+                    <h3 class="card-title">Legal & Documentation</h3>
+                    <p class="card-desc">We ensure all property documents are verified and guide you through safe and legally compliant transactions.</p>
+                </div>
+
+                <div class="info-card reveal-item">
+                    <div class="card-header">
+                        <span class="card-number">05</span>
+                        <div class="dot-indicator"></div>
+                    </div>
+                    <h3 class="card-title">Commercial Projects</h3>
+                    <p class="card-desc">Strategic commercial spaces designed for business growth, visibility, and profitable opportunities.</p>
+                </div>
+
+                <div class="info-card reveal-item">
+                    <div class="card-header">
+                        <span class="card-number">06</span>
+                        <div class="dot-indicator"></div>
+                    </div>
+                    <h3 class="card-title">Residential Properties</h3>
+                    <p class="card-desc">Premium residential spaces crafted for comfortable living, modern lifestyle, and future investment value.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="why-us" class="showcase-section">
+        <div class="showcase-container">
+            
+            <div class="showcase-header">
+                <div class="header-text">
+                    <span class="badge-outline">Professional Consultancy</span>
+                    <h2 class="section-title">
+                        Make Every Property Decision<br>
+                        <span class="text-gradient">With Clarity & Confidence</span>
+                    </h2>
+                    <p class="section-description">
+                        A great consultant does more than just show properties. We analyze risks, verify approvals, study market trends, and provide honest guidance so you can make informed and confident investment decisions.
+                    </p>
+                </div>
+                
+                <div class="header-callout">
+                    <div class="callout-box">
+                        <div class="callout-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"></path><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                        </div>
+                        <div class="callout-text">
+                            <h4>Why it matters</h4>
+                            <p>Better analysis leads to smarter investments and long-term value.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="interactive-showcase">
+                
+                <div class="tab-list">
+                    <button class="tab-btn active" data-target="tab1">
+                        <span class="tab-num">01</span> Risk Analysis
+                    </button>
+                    <button class="tab-btn" data-target="tab2">
+                        <span class="tab-num">02</span> Experience-Based Guidance
+                    </button>
+                    <button class="tab-btn" data-target="tab3">
+                        <span class="tab-num">03</span> Verified Consultancy
+                    </button>
+                    <button class="tab-btn" data-target="tab4">
+                        <span class="tab-num">04</span> Trust & Transparency
+                    </button>
+                </div>
+
+                <div class="tab-display glass-panel">
+                    
+                    <div class="content-panel active" id="tab1">
+                        <div class="watermark">01</div>
+                        <h3>Risk Analysis</h3>
+                        <p>We identify potential project risks, delays, and approval issues before you invest, ensuring safer and more secure decisions.</p>
+                        <ul class="feature-list">
+                            <li>Project risk evaluation</li>
+                            <li>Approval verification</li>
+                            <li>Delay risk analysis</li>
+                        </ul>
+                    </div>
+
+                    <div class="content-panel" id="tab2">
+                        <div class="watermark">02</div>
+                        <h3>Experience-Based Guidance</h3>
+                        <p>Our insights are backed by real market experience, helping you choose the right property and investment strategy tailored to your goals.</p>
+                        <ul class="feature-list">
+                            <li>Market insights</li>
+                            <li>Investment planning</li>
+                            <li>Practical recommendations</li>
+                        </ul>
+                    </div>
+
+                    <div class="content-panel" id="tab3">
+                        <div class="watermark">03</div>
+                        <h3>Verified Consultancy</h3>
+                        <p>We follow a professional and structured approach to ensure reliability, accuracy, and trust in every single consultation.</p>
+                        <ul class="feature-list">
+                            <li>Professional approach</li>
+                            <li>Reliable advice</li>
+                            <li>Structured guidance</li>
+                        </ul>
+                    </div>
+
+                    <div class="content-panel" id="tab4">
+                        <div class="watermark">04</div>
+                        <h3>Trust & Transparency</h3>
+                        <p>We provide honest, need-based suggestions without pressure, ensuring complete transparency and long-term trust.</p>
+                        <ul class="feature-list">
+                            <li>Client-first approach</li>
+                            <li>Transparent communication</li>
+                            <li>No-pressure consulting</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="video-process" class="video-section">
+        <div class="video-wrapper">
+            <div class="video-glow"></div>
+            
+            <video id="neevVideo" class="custom-video" loop muted playsinline preload="metadata" poster="video-poster.jpg">
+                <source src="https://res.cloudinary.com/dsphf2xss/video/upload/v1779023968/neev-intro-compressed_gwxt9v.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <div class="video-controls-container">
+                <div class="controls-trigger">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                </div>
+                
+                <div class="controls-expanded">
+                    <button id="playPauseBtn" aria-label="Play/Pause">
+                        <svg class="icon-play" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M5 3l14 9-14 9V3z"></path></svg>
+                        <svg class="icon-pause" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="display: none;"><rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect></svg>
+                    </button>
+                    
+                    <button id="muteBtn" aria-label="Mute/Unmute">
+                        <svg class="icon-muted" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><line x1="23" y1="9" x2="17" y2="15"></line><line x1="17" y1="9" x2="23" y2="15"></line></svg>
+                        <svg class="icon-unmuted" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+                    </button>
+
+                    <button id="fullscreenBtn" aria-label="Fullscreen">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bridge-section">
+        <div class="bridge-container">
+            <div class="section-header center-align">
+                <h2 class="section-title">THE BRIDGE TO <span class="text-gradient">SUCCESS</span></h2>
+                <p class="section-subtitle">
+                    A consultant creates a strong BRIDGE between Builder and Purchaser.<br>
+                    This bridge must be as strong as a pillar—constructed with Experience, Knowledge, and Skill.
+                </p>
+            </div>
+
+            <div class="bridge-graphic-wrapper">
+                <div class="ambient-glow"></div>
+                <img src="neev-process.webp" alt="The Bridge to Success Process" class="bridge-img">
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="cert-section">
+        <div class="cert-container">
+            <div class="section-header center-align">
+                <h2 class="section-title">Our <span class="text-gradient">Certifications</span> & Professional Expertise</h2>
+            </div>
+
+            <div class="cert-grid">
+                <div class="cert-card" data-index="0" data-src="certificate1.jpeg" data-title="MahaRERA Registered & Government Recognized">
+                    <div class="cert-image-wrapper">
+                        <img src="certificate1.jpeg" alt="MahaRERA Certificate" class="cert-thumb">
+                    </div>
+                    <div class="cert-info">
+                        <p>MahaRERA Registered & Government Recognized</p>
+                    </div>
+                </div>
+
+                <div class="cert-card" data-index="1" data-src="certificate2.jpeg" data-title="Certified through NAR-INDIA (National Association of Realtors)">
+                    <div class="cert-image-wrapper">
+                        <img src="certificate2.jpeg" alt="NAR-INDIA Certificate" class="cert-thumb">
+                    </div>
+                    <div class="cert-info">
+                        <p>Certified through NAR-INDIA (National Association of Realtors)</p>
+                    </div>
+                </div>
+
+                <div class="cert-card" data-index="2" data-src="certificate3.jpg" data-title="Recognized by MahaRERA & MSSU">
+                    <div class="cert-image-wrapper">
+                        <img src="certificate3.jpg" alt="MSSU Certificate" class="cert-thumb">
+                    </div>
+                    <div class="cert-info">
+                        <p>Recognized by MahaRERA & MSSU</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="certModal" class="cert-modal">
+        <div class="modal-overlay"></div>
+        
+        <button class="modal-close" aria-label="Close Modal">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+
+        <button class="modal-nav prev" aria-label="Previous Certificate">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        </button>
+
+        <div class="modal-content">
+            <img id="modalImg" src="" alt="Certificate" class="modal-img">
+            <h4 id="modalCaption" class="modal-caption"></h4>
+        </div>
+
+        <button class="modal-nav next" aria-label="Next Certificate">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </button>
+    </div>
+
+    <section id="finance" class="bento-finance-section">
+        <div class="bento-container">
+            
+            <div class="section-header center-align">
+                <span class="badge-outline">Finance & Loan Support</span>
+                <h2 class="section-title">Property Financing Made <br><span class="text-gradient">Simple, Secure & Professional</span></h2>
+                <p class="section-subtitle" style="max-width: 700px; margin: 0 auto;">We coordinate with trusted banks to provide smooth documentation and loan guidance, making your property journey stress-free.</p>
+            </div>
+
+            <div class="bento-grid">
+                
+                <div class="bento-card card-main reveal-bento">
+                    <div class="card-content">
+                        <h3>End-to-End Finance Assistance</h3>
+                        <p>From property selection to trusted bank coordination, we guide you at every step with transparency.</p>
+                        
+                        <div class="bank-logos">
+                            <span class="bank-pill"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Trusted Banks</span>
+                            <span class="bank-pill"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Fast Approval</span>
+                        </div>
+                        <a href="#contact" class="btn-dark mt-auto">Get Loan Support</a>
+                    </div>
+                    <div class="card-graphic abstract-circles"></div>
+                </div>
+
+                <div class="bento-card card-docs reveal-bento">
+                    <div class="icon-glass">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary-orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                    </div>
+                    <h3>Documentation Support</h3>
+                    <p>Complete support for required paperwork and legal requirements.</p>
+                    
+                    <ul class="hover-checklist">
+                        <li><span>Identity Proofs</span> <div class="check"></div></li>
+                        <li><span>Income Statements</span> <div class="check"></div></li>
+                        <li><span>Property Papers</span> <div class="check"></div></li>
+                        <li><span>Bank Approvals</span> <div class="check"></div></li>
+                        
+                        <li><span>Society NOCs</span> <div class="check"></div></li>
+                        <li><span>Tax Receipts</span> <div class="check"></div></li>
+                        <li><span>Sale Agreement</span> <div class="check"></div></li>
+                    </ul>
+                </div>
+
+                <div class="bento-card card-eligibility reveal-bento">
+                    <div class="eligibility-content">
+                        <h3>Loan Eligibility</h3>
+                        <p>Understand your budget planning instantly.</p>
+                    </div>
+                    <div class="progress-ring-container">
+                        <svg class="progress-ring" width="100" height="100">
+                            <circle class="progress-ring-circle-bg" stroke="rgba(255,255,255,0.05)" stroke-width="8" fill="transparent" r="40" cx="50" cy="50"/>
+                            <circle class="progress-ring-circle" stroke="var(--primary-orange)" stroke-width="8" fill="transparent" r="40" cx="50" cy="50"/>
+                        </svg>
+                        <div class="progress-text">100%<br><span>Support</span></div>
+                    </div>
+                </div>
+
+                <div class="bento-card card-loans reveal-bento">
+                    <div class="icon-glass">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary-orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                    </div>
+                    <h3>Housing & Commercial</h3>
+                    <p>Tailored financing solutions for both homes and business spaces.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            
+            <div class="section-header center-align">
+                <h1 class="section-title">Get In <span class="text-gradient">Touch</span></h2>
+            </div>
+
+            <div class="contact-grid">
+                
+                <div class="map-wrapper reveal-item">
+                    <iframe 
+                        src="https://maps.google.com/maps?width=100%25&height=600&hl=en&q=Shop%20No.%202%20Krishnai%20Tower,%20Plot%20No.%2020,%20Sector%2015,%20Ghansoli%20Navi%20Mumbai%20400%20701&t=&z=14&ie=UTF8&iwloc=B&output=embed" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+                <div class="form-wrapper reveal-item">
+                    <form action="#" class="contact-form">
+                        
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label for="fullName">Full Name</label>
+                                <input type="text" id="fullName" placeholder="Full Name" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" placeholder="0123456789" required>
+                            </div>
+                        </div>
+
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" placeholder="support@gmail.com" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="services">Services</label>
+                                <div class="select-wrapper">
+                                    <select id="services" required>
+                                        <option value="" disabled selected>Select Service</option>
+                                        <option value="buy">Property Buying</option>
+                                        <option value="sell">Property Selling</option>
+                                        <option value="invest">Investment Guidance</option>
+                                        <option value="loan">Loan Support</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="message">Write Message</label>
+                            <textarea id="message" rows="5" placeholder="Your message.." required></textarea>
+                        </div>
+
+                        <div class="submit-wrapper">
+                            <button type="submit" class="btn-submit">
+                                Send Message
+                                <span class="icon-circle">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="19" x2="19" y2="5"></line><polyline points="9 5 19 5 19 15"></polyline></svg>
+                                </span>
+                            </button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-bg" style="background-image: url('footer-background.webp');"></div>
+        <div class="footer-overlay"></div>
+
+        <div class="footer-container">
+            
+            <div class="footer-col brand-col">
+                <div class="footer-logo-area">
+                    <div class="logo-icon">
+                        <img src="logo.png" alt="Neev Properties Logo" class="footer-logo-img">
+                    </div>
+                    <div class="logo-text">
+                        <h2>NEEV PROPERTIES</h2>
+                        <span>A Journey Towards Dream...</span>
+                    </div>
+                </div>
+                
+                <p class="footer-desc">
+                    We help you buy, sell, and invest in the right property with expert guidance and trust.
+                </p>
+
+                <div class="footer-address">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary-orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="pin-icon"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    <p>Shop No 2, Krishnai Tower,<br>Plot No.20, Sector 15,<br>Ghansoli Navi Mumbai 400701</p>
+                </div>
+            </div>
+
+            <div class="footer-col link-col">
+                <h4 class="footer-heading">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary-orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                    QUICK LINKS
+                </h4>
+                <div class="heading-line"></div>
+                
+                <ul class="footer-links">
+                    <li><a href="#home"><svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg> Home</a></li>
+                    <li><a href="#about"><svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg> About Us</a></li>
+                    <li><a href="#consultancy"><svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg> Consultancy</a></li>
+                    <li><a href="#certificates"><svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg> Certificate</a></li>
+                    <li><a href="#why-us"><svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg> Why Us</a></li>
+                    <li><a href="#contact"><svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg> Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col link-col">
+                <h4 class="footer-heading">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary-orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><path d="M9 22v-4h6v4"></path><path d="M8 6h.01"></path><path d="M16 6h.01"></path><path d="M12 6h.01"></path><path d="M12 10h.01"></path><path d="M12 14h.01"></path><path d="M16 10h.01"></path><path d="M16 14h.01"></path><path d="M8 10h.01"></path><path d="M8 14h.01"></path></svg>
+                    PROJECTS
+                </h4>
+                <div class="heading-line"></div>
+                
+                <ul class="footer-links">
+                    <li><a href="#"><svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg> Residential</a></li>
+                    <li><a href="#"><svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg> Commercial</a></li>
+                    <li><a href="#"><svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg> Plot</a></li>
+                    <li><a href="#"><svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg> Finance</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col contact-col">
+                <h4 class="footer-heading">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary-orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    CONTACT DETAILS
+                </h4>
+                <div class="heading-line"></div>
+                
+                <ul class="contact-info-list">
+                    <li>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--primary-orange)" stroke="var(--primary-orange)" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        +91-9892992464
+                    </li>
+                    <li>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--primary-orange)" stroke="var(--primary-orange)" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        +91-9223357080
+                    </li>
+                    <li>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--primary-orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        neevproperties01@gmail.com
+                    </li>
+                </ul>
+
+                <h5 class="social-heading">Follow Us</h5>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                    <a href="#" aria-label="YouTube">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 <span class="text-orange">Neev Properties</span>. All Rights Reserved. Designed & Developed By <span class="text-orange">WebNet Digital Media</span>.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
